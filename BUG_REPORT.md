@@ -1,6 +1,10 @@
 # Elasticbeanstalk Load Balancer Timeout
 <!--- Provide a general summary of the issue in the Title above -->
 
+## Messages for help
+Greetings, I am trying to increase the timeout on an API endpoint that runs over 60 seconds, I know this is bad practice in a production env but I am not in a production environment, I am in a beta preview environment. I went to the load balancer responible for my elastic beanstalk instance and set the value to 4000. How would I gain access to the WSGI or ASGI to increase it or there is a deeper with issue elasticbeanstalk. I have a repo https://github.com/FindMyRole/elasticbeanstalk-load-balancer-timeout
+
+## Github Link(https://github.com/FindMyRole/elasticbeanstalk-load-balancer-timeout)
 ## Expected Behavior
 * the eb environment instance should not timeout at 60 seconds
 <!--- Tell us what should happen -->

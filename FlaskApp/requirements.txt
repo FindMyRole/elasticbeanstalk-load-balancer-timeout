@@ -1,0 +1,10 @@
+requests
+flask
+werkzeug
+pytz
+
+pytest
+coverage
+requests-mock
+pytest-watch
+pytest-mock
